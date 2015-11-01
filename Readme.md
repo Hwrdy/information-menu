@@ -1,9 +1,13 @@
 #Introduction
 
 This is a simple practice about using highcharts and openweathermap api.
+
 This project support following environments:
+
 IE 7+
+
 Chrome
+
 FireFox
 
 #How to Run
