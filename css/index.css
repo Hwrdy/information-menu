@@ -1,0 +1,76 @@
+/* Utils */
+
+.u-10-leftMargin {
+  margin-left: 10px;
+}
+
+.u-5-topMargin {
+  margin-top: 5px;
+}
+
+.u-hide {
+  display: none;
+}
+
+.u-show-inlineBlock {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+
+/* Enf of Utils */
+
+.menu {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  width: 20%;
+  height: 100%;
+  vertical-align: top;
+}
+
+.menu li {
+  border: 1px solid #c0c0c0;
+  padding: 5px 5px 5px 20px;
+  font-size: 12px;
+  font-family: Arial;
+}
+
+.menu li:hover,
+.menu li:focus,
+.menu li.is-selected {
+  border-color: #2a9fcd;
+  background-color: #E7EBFF;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#content {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  width: 79%;
+  height: 100%;
+  vertical-align: top;
+  font-family: Arial;
+}
+
+/* For responsive */
+
+@media screen and (max-width: 700px)
+{
+  .menu {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  #content {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+  }
+ 
+}
+ 

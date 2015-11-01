@@ -1,0 +1,140 @@
+.Weather {
+  margin: 5px;
+}
+
+.Weather-title {
+  border-bottom: 1px solid #000000;
+  padding-bottom: 4px;
+  width: 100%;
+  font-size: 16px;
+  font-family: Arial;
+}
+
+.Weather-detail {
+  margin-top: 12px;
+  width: 100%;
+}
+
+.Error {
+  display: none;
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  margin-bottom: 12px;
+  border: 1px solid #FF6666;
+  background-color: #FFF3F3;
+}
+
+.Error-icon {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  background-image: url("../img/error.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/error.png', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/error.png', sizingMethod='scale')";
+}
+
+.Error-message {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  font-size: 14px;
+}
+
+.Search {
+  display: block;
+  line-height: 30px;
+}
+
+.Search-form .busy {
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/ajax-loader.gif");
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+.Result {
+  display: block;
+  width: 80%;
+  height: auto;
+}
+
+.Result-top {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.Result-picture {
+  display: none;
+  width: 70px;
+  height: 75px;
+  background-image: url("../img/icons.png");
+}
+
+.Result-picture.u-cloud {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  background-position: -70px -375px;
+}
+
+.Result-picture.u-rain {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  background-position: -280px -375px;
+}
+
+.Result-picture.u-clear {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  background-position: -70px 0;
+}
+
+.Result-picture.u-other {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  background-position: -140px -525px;
+}
+
+.Result-box {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  margin-left: 50px;
+}
+
+.Result-title {
+  display: block;
+  font-size: 50px;
+}
+
+.Result-description {
+  display: block;
+  font-size: 20px;
+  color: #B2B2B2;
+}
+
+.Result-bottom {
+  display: block;
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.Result-temperature .temperature-title,
+.Result-humidity .humidity-title {
+  width: 160px;
+}
+
+.Result-humidity {
+  margin-top: 20px;
+}
