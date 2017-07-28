@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 
 This is a simple practice about using highcharts and openweathermap api.
 
@@ -10,11 +10,11 @@ Chrome
 
 FireFox
 
-#How to Run
+# How to Run
 
 I suggest host a local http server to run this project.
 
-##Steps
+## teps
 
 1. Install Node.js
 2. `npm install -g http-server`
