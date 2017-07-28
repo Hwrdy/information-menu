@@ -14,7 +14,7 @@ FireFox
 
 I suggest host a local http server to run this project.
 
-## teps
+## Steps
 
 1. Install Node.js
 2. `npm install -g http-server`
